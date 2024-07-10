@@ -65,5 +65,5 @@ Dentro da viagem o usuário pode planejar sua viagem adicionando atividades para
         ⇒ Atividade 21 de julho
         
 - [ ]  Extração do core das trips pra dentro de uma classe Service
-- [ ]  Mapeamento das exceções da nossa aplicação
-    - [ ]  Com tratativas de erro personalizadas
+- [ ]  Mapeamento das exceções
+    - [ ]  Tratativas de erro personalizadas
