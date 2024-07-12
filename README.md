@@ -14,7 +14,7 @@ Dentro da viagem o usuário pode planejar sua viagem adicionando atividades para
 - [ ] Novos participantes podem ser convidados dentro da página do evento através do e-mail e assim devem passar pelo fluxo de confirmação como qualquer outro convidado;
 
 ### Configuração e criação do projeto
-- [ ]  Criar projeto usando [Spring Initializr](https://start.spring.io/)
+- [x]  Criar projeto usando [Spring Initializr](https://start.spring.io/)
     - Spring Web
     - Flyway
     - Dev Tools
