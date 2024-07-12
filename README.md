@@ -21,7 +21,7 @@ Dentro da viagem o usuário pode planejar sua viagem adicionando atividades para
     - Lombok
     - JPA
     - H2 Database
-- [ ]  Configurar banco de dados na aplicação
+- [x]  Configurar banco de dados na aplicação
 
 ## Implementar funcionalidades das viagens
 - [ ]  Criar migration para criação da tabela `trips`
