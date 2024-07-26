@@ -24,7 +24,7 @@ Dentro da viagem o usuário pode planejar sua viagem adicionando atividades para
 - [x]  Configurar banco de dados na aplicação
 
 ## Implementar funcionalidades das viagens
-- [ ]  Criar migration para criação da tabela `trips`
+- [X]  Criar migration para criação da tabela `trips`
 - [ ]  Criar entidades que irá representar uma `Trip`
 - [ ]  Criar repository da entidade viagem
 - [ ]  Criar endpoint de cadastro de viagem **`POST**/trips`
