@@ -6,7 +6,7 @@ Dentro da viagem o usuário pode planejar sua viagem adicionando atividades para
 
 ## Requisitos
 ### Requisitos funcionais
-- [ ] O usuário cadastra uma viagem informando o ```local de destino```, ```data de início```, ```data de término```, ```e-mails dos convidados```, ```seu nome completo``` e ```endereço de e-mail```;
+- [X] O usuário cadastra uma viagem informando o ```local de destino```, ```data de início```, ```data de término```, ```e-mails dos convidados```, ```seu nome completo``` e ```endereço de e-mail```;
 - [ ] O criador da viagem recebe um e-mail para confirmar a nova viagem através de um link. Ao clicar no link, a viagem é confirmada, os convidados recebem e-mails de confirmação de presença e o criador é redirecionado para a página da viagem;
 - [ ] Os convidados, ao clicarem no link de confirmação de presença, são redirecionados para a aplicação onde devem inserir seu nome (além do e-mail que já estará preenchido) e então estarão confirmados na viagem;
 - [ ] Na página do evento, os participantes podem adicionar links importantes da viagem como reserva no AirBnB, locais para serem visitados e etc;
@@ -25,10 +25,10 @@ Dentro da viagem o usuário pode planejar sua viagem adicionando atividades para
 
 ## Implementar funcionalidades das viagens
 - [X]  Criar migration para criação da tabela `trips`
-- [ ]  Criar entidades que irá representar uma `Trip`
-- [ ]  Criar repository da entidade viagem
-- [ ]  Criar endpoint de cadastro de viagem **`POST**/trips`
-- [ ]  Criar endpoint de consulta de viagem **`GET**/trips/{tripId}`
+- [X]  Criar entidades que irá representar uma `Trip`
+- [X]  Criar repository da entidade viagem
+- [X]  Criar endpoint de cadastro de viagem **`POST**/trips`
+- [X]  Criar endpoint de consulta de viagem **`GET**/trips/{tripId}`
 - [ ]  Criar endpoint de atualização de viagem **`PUT**/trips/{tripId}`
 - [ ]  Criar endpoint confirmação de viagem **`GET**/trips/{tripId}/confirm`
 
