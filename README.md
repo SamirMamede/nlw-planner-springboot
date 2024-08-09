@@ -29,11 +29,11 @@ Dentro da viagem o usuário pode planejar sua viagem adicionando atividades para
 - [X]  Criar repository da entidade viagem
 - [X]  Criar endpoint de cadastro de viagem **`POST**/trips`
 - [X]  Criar endpoint de consulta de viagem **`GET**/trips/{tripId}`
-- [ ]  Criar endpoint de atualização de viagem **`PUT**/trips/{tripId}`
-- [ ]  Criar endpoint confirmação de viagem **`GET**/trips/{tripId}/confirm`
+- [X]  Criar endpoint de atualização de viagem **`PUT**/trips/{tripId}`
+- [X]  Criar endpoint confirmação de viagem **`GET**/trips/{tripId}/confirm`
 
 ## Cadastro e confirmação de participantes
-- [ ]  Criar tabela de `Participant`
+- [X]  Criar tabela de `Participant`
 - [ ]  Criar entidade que irá representar um`Participant`
 - [ ]  Criar repository da entidade participante
 - [ ]  Criar endpoint confirmação de participante **`POST**/participants/{participantId}/confirm`
