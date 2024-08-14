@@ -35,8 +35,8 @@ Dentro da viagem o usuário pode planejar sua viagem adicionando atividades para
 ## Cadastro e confirmação de participantes
 - [X]  Criar tabela de `Participant`
 - [X]  Criar entidade que irá representar um`Participant`
-- [ ]  Criar repository da entidade participante
-- [ ]  Criar endpoint confirmação de participante **`POST**/participants/{participantId}/confirm`
+- [X]  Criar repository da entidade participante
+- [X]  Criar endpoint confirmação de participante **`POST**/participants/{participantId}/confirm`
 - [ ]  Criar endpoint para convidar participante **`POST**/trips/{tripId}/invites`
 - [ ]  Criar endpoint para consultar participantes **`GET**/trips/{tripId}/participants`
 
