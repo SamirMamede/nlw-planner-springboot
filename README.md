@@ -43,7 +43,7 @@ Dentro da viagem o usuário pode planejar sua viagem adicionando atividades para
 ## Funcionalidades que dizem respeito as atividades da viagem e links
 - [X]  Criar tabela de `Activities`
 - [X]  Criar entidade que irá representar uma `Activity`
-- [ ]  Criar repository da entidade atividade
+- [X]  Criar repository da entidade atividade
 - [ ]  Criar endpoint para cadastro de atividade **`POST**/trips/{tripId}/activities`
 - [ ]  Criar endpoint para consultar atividades de uma viagem **`GET**/trips/{tripId}/invites`
 - [ ]  Criar tabela de `Links`
