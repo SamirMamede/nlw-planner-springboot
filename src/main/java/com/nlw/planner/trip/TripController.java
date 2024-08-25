@@ -1,9 +1,9 @@
 package com.nlw.planner.trip;
 
-import com.nlw.planner.activities.ActivityData;
-import com.nlw.planner.activities.ActivityRequestPayload;
-import com.nlw.planner.activities.ActivityResponse;
-import com.nlw.planner.activities.ActivityService;
+import com.nlw.planner.activity.ActivityData;
+import com.nlw.planner.activity.ActivityRequestPayload;
+import com.nlw.planner.activity.ActivityResponse;
+import com.nlw.planner.activity.ActivityService;
 import com.nlw.planner.participant.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

@@ -1,6 +1,5 @@
-package com.nlw.planner.activities;
+package com.nlw.planner.activity;
 
-import com.nlw.planner.participant.ParticipantData;
 import com.nlw.planner.trip.Trip;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

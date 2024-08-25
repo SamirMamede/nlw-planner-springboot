@@ -1,4 +1,4 @@
-package com.nlw.planner.activities;
+package com.nlw.planner.activity;
 
 import java.time.LocalDateTime;
 import java.util.UUID;

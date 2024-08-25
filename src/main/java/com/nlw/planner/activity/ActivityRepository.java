@@ -1,6 +1,5 @@
-package com.nlw.planner.activities;
+package com.nlw.planner.activity;
 
-import com.nlw.planner.participant.Participant;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
