@@ -4,10 +4,7 @@ import com.nlw.planner.activity.ActivityData;
 import com.nlw.planner.activity.ActivityRequestPayload;
 import com.nlw.planner.activity.ActivityResponse;
 import com.nlw.planner.activity.ActivityService;
-import com.nlw.planner.link.Link;
-import com.nlw.planner.link.LinkRequestPayload;
-import com.nlw.planner.link.LinkResponse;
-import com.nlw.planner.link.LinkService;
+import com.nlw.planner.link.*;
 import com.nlw.planner.participant.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -146,5 +143,12 @@ public class TripController {
         }
 
         return ResponseEntity.notFound().build();
+    }
+
+    @GetMapping("/{id}/links")
+    public ResponseEntity<List<LinkData>> getAllLinks(@PathVariable UUID id){
+        List<LinkData> linkDataList = this.linkService.getAllLinksFromTrip(id);
+
+        return ResponseEntity.ok(linkDataList);
     }
 }
