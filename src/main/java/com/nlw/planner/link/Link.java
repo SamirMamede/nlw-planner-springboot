@@ -31,4 +31,11 @@ public class Link {
     @JoinColumn(name = "trip_id", nullable = false)
     private Trip trip;
 
+    public Link(String title, String url, Trip trip){
+
+        this.title = title;
+        this.url = url;
+        this.trip = trip;
+    }
+
 }
