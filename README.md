@@ -49,21 +49,5 @@ Dentro da viagem o usuário pode planejar sua viagem adicionando atividades para
 - [X]  Criar tabela de `Links`
 - [X]  Criar entidade que irá representar um `Link`
 - [X]  Criar repository da entidade links
-- [ ]  Criar endpoint para criação de link **`POST**/trips/{tripId}/links`
-- [ ]  Criar endpoint para consultar links de uma viagem **`GET**/trips/{tripId}/links`
-
-## Features complementares
-- [ ]  Adicionar uma validação nos campos de data
-    - [ ]  A data de começo da viagem, é inferior a data de término viagem
-    - [ ]  A data de uma atividade está entre as datas da viagem
-        
-        **Exemplo:**
-        Viagem entre os dias 20 á 25 de julho no Rio de Janeiro
-        
-        ⇒ Atividade 19 de julho
-        
-        ⇒ Atividade 21 de julho
-        
-- [ ]  Extração do core das trips pra dentro de uma classe Service
-- [ ]  Mapeamento das exceções
-    - [ ]  Tratativas de erro personalizadas
+- [X]  Criar endpoint para criação de link **`POST**/trips/{tripId}/links`
+- [X]  Criar endpoint para consultar links de uma viagem **`GET**/trips/{tripId}/links`
